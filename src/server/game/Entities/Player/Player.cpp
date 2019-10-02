@@ -4891,7 +4891,7 @@ void Player::RepopAtGraveyard()
         {
             if (sConfigMgr->GetBoolDefault("Hardcore.Mode.Enable", true))
             {
-                TeleportTo(1, 16229.599609f, 16267.900391, 14.0f, 0.0f); // Orientation is initially in degrees
+                TeleportTo(1, 16229.599609f, 16267.900391f, 14.0f, 0.0f); // Orientation is initially in degrees
                 ObjectAccessor::SaveAllPlayers();
             }
             else
